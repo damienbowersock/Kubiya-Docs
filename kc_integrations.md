@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Integrations
-parent: Key Concpets
+parent: Key Concepts
 nav_order: 3
 has_children: true
 ---

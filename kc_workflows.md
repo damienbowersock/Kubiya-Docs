@@ -50,19 +50,19 @@ A workflow is a sequence of steps. Each step is a single action that is executed
 
 Kubiya supports a variety of step types:
 
-* Input Steps
-* Input steps are used to define a step that is used to get input from the user. (e.g. text, number, etc.)
+* ### Input Steps
+Input steps are used to define a step that is used to get input from the user. (e.g. text, number, etc.)
 
-### Action Steps
+* ### Action Steps
 Action steps are used to define a step that is used to execute an action. (such as opening a GitHub Pull request, or causing an AWS Lambda function to be executed)
 
-### Condition Steps
+* ### Condition Steps
 Condition steps are used to define a condition that is used to determine the next step in the workflow based on the result of the condition.
 
-### JQ Steps
+* ### JQ Steps
 JQ steps are used to define a step that is used to transform the workflow context using the JQ language.  Details for using JQ can be found [here](https://stedolan.github.io/jq/).
 
-### Wait Steps
+* ### Wait Steps
 Wait steps are used to define a step that is used to wait for a specified amount of time, or until a condition is met. (such as waiting for a GitHub Pull request to be merged)
 
 Next: Actions

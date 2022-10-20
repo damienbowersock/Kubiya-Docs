@@ -18,7 +18,7 @@ In order to authenticate, run the following command in your terminal:
 
 The CLI should open the browser and prompt you to authenticate using your organization’s authentication method:
 
-![Browser Authentication Window](https://kubiya-static-objects.s3.amazonaws.com/kubiya_enter_org_details.png)
+<img src="https://kubiya-static-objects.s3.amazonaws.com/kubiya_enter_org_details.png" width="350" height="475" />
 
 1. Enter the organization name and click on the “Continue” button. The organization name is received from Kubiya upon registration
 2. Log in with the identity provider

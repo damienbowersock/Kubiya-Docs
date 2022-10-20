@@ -15,7 +15,7 @@ The Kubiya CLI is a simple command line interface which allows you to interact w
 ## Installation
 The Kubiya CLI is available for multiple platforms. You can download the CLI using the following links:
 
-<button onclick="example.com">Mac OSX - Intel</button> <button onclick="example.com">silicon Mac OSX - Apple silicon</button> <button onclick="example.com"> Linux (amd64) </button> <button onclick="example.com">Linux (arm64)</button>
+<button onclick="example.com">Mac OSX - Intel</button> <button onclick="example.com">Mac OSX - Apple</button> <button onclick="example.com"> Linux (amd64) </button> <button onclick="example.com">Linux (arm64)</button>
 
 Copy the CLI to a location in your PATH and make it executable.
 

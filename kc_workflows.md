@@ -10,33 +10,22 @@ Workflows are a way to describe a sequence of actions that can be executed by Ku
 
 Workflows are defined using the [YAML](https://yaml.org) format and are based on the Kubiya domain specific language (DSL).
 
-The Kubiya DSL is a simple and intuitive way to define workflows. It is based on a set of core concepts which are explained in the next sections.
-
-Kubiya supports importing workflows from a variety of sources.
-
-* Using the Kubiya UI drag and drop editor
-* SVN - such as GitHub, GitLab, Bitbucket
-*From a local directory - such as your computer
-
-## Workflow DSL
-The Kubiya DSL allows you to define workflows using a simple and intuitive syntax.
-
-The DSL involves a combination of the core concepts which are explained in the next sections.
+The Kubiya DSL is a simple and intuitive way to define workflows through a combination of Triggers and Steps.
 
 ## Triggers
-Triggers are the starting point of a workflow. They are used to define when a workflow should be executed.
+Triggers are the starting point of a workflow and represent an event that invokes a series of actions.
 
 Kubiya supports a variety of triggers:
 
 ### Interaction Triggers
-Interaction triggers are used to define when a workflow should be executed based on a user interaction. Kubiya supports a variety of interaction triggers. For example:
+Interaction triggers are invoked when a user interacts with a user in a pre-described way.  Kubiya understands several interaction triggers. For example:
 
 * Natural Language - simple English sentences that are used to trigger a workflow
 * Slash Commands - slash commands that are used to trigger a workflow (e.g. /hello)
 * Interactive Components - interactive components that are used to trigger a workflow (e.g. buttons, menus, etc.)
 
 ### Event Triggers
-Event triggers are used to define when a workflow should be executed based on an event. Kubiya supports a variety of events sources using the CloudEvents standard. For example:
+Event triggers are used to define when a workflow should be executed based on an event that occurs in an integrated system. Kubiya supports a variety of events sources using the CloudEvents standard. For example:
 
 * Slack Events - Slack events that are used to trigger a workflow (e.g. message.im)
 * GitHub Events - GitHub events that are used to trigger a workflow (e.g. pull_request)
@@ -46,9 +35,9 @@ Event triggers are used to define when a workflow should be executed based on an
 Time triggers are used to define when a workflow should be executed based on a time schedule. Schedules are simple cron expressions that are used to trigger a workflow (e.g. 0 0 * * *).
 
 ## Steps
-A workflow is a sequence of steps. Each step is a single action that is executed by Kubiya. In Kubiya, steps are based on types. Each type has a set of properties that are used to define the step.
+The series of actions that occur when a workflow is triggered are known as steps. Each step is a single action, performed by Kubiya sequentially, as prescribed by the workflow definition.
 
-Kubiya supports a variety of step types:
+Kubiya can perform many types of steps allowing for complex workflows.  Types of steps include:
 
 * ### Input Steps
 Input steps are used to define a step that is used to get input from the user. (e.g. text, number, etc.)
@@ -64,5 +53,14 @@ JQ steps are used to define a step that is used to transform the workflow contex
 
 * ### Wait Steps
 Wait steps are used to define a step that is used to wait for a specified amount of time, or until a condition is met. (such as waiting for a GitHub Pull request to be merged)
+
+
+## Importing Workflows
+Many times an operator may wish to reuse a workflow created by another operator or third-party.  Kubiya allows you to import pre-defined workflows from several sources:
+
+* Using the Kubiya UI drag and drop editor
+* SVN - such as GitHub, GitLab, Bitbucket
+* From a local directory - such as your computer
+
 
 Next: Actions

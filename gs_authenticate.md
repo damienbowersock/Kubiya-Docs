@@ -33,4 +33,4 @@ You should see a validation message:
 
     ✅ Authenticated to *your organization name* as *your_user_name*
 
-⏭️ Next: Setting up an integration
+⏭️ Next: [Setting up an integration](gs_enable_integrations.html)

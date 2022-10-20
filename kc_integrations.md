@@ -19,3 +19,5 @@ Several Internal Integrations are available, including Slack, Jira and AWS.  For
 
 ## Workflow Integrations
 Workflow Integrations allow Kubiya to connect and perform actions on external systems, on behalf of an end-user.  Workflow Integrations become the backbone of Kubiya's ability to provide value to the end-user and automate their day-to-day activities.
+
+⏭️ Next: [Key Concepts -> Policies](kc_policies.html)

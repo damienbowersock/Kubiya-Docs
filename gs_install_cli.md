@@ -34,5 +34,5 @@ The CLI will output the following if the installation was successful:
 
 (Note: the version number can change as well as the git hash based on the version of the CLI)
 
-⏭️ Next: [Authenticate using the CLI](https://Authenticating_Kubiya_from_the_CLI)
+⏭️ Next: [Authenticate using the CLI](Authenticating_Kubiya_from_the_CLI)
 

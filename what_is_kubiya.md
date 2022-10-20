@@ -4,7 +4,7 @@ title: What is Kubiya?
 parent: Welcome
 nav_order: 1
 ---
-# What is ![Kubiya](https://kubiya.ai/wp-content/uploads/2022/09/logo.svg)?
+# What is Kubiya?
 
 Kubiya is a SaaS platform that utilizes conversation AI to automate and orchestrate common DevOps functions in a self-service way.  Kubiya's extensible workflow engine allows operators and users to create a nearly endless array of automations that minimize manual and repetitive tasks.
 

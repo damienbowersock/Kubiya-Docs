@@ -17,22 +17,22 @@ Triggers are the starting point of a workflow and represent an event that invoke
 
 Kubiya supports a variety of triggers:
 
-### Interaction Triggers
-Interaction triggers are invoked when a user interacts with a user in a pre-described way.  Kubiya understands several interaction triggers. For example:
+* ### Interaction Triggers
+    Interaction triggers are invoked when a user interacts with a user in a pre-described way.  Kubiya understands several interaction triggers. For example:
 
-* Natural Language - simple English sentences that are used to trigger a workflow
-* Slash Commands - slash commands that are used to trigger a workflow (e.g. /hello)
-* Interactive Components - interactive components that are used to trigger a workflow (e.g. buttons, menus, etc.)
+    * Natural Language - simple English sentences that are used to trigger a workflow
+    * Slash Commands - slash commands that are used to trigger a workflow (e.g. /hello)
+    * Interactive Components - interactive components that are used to trigger a workflow (e.g. buttons, menus, etc.)
 
-### Event Triggers
-Event triggers are used to define when a workflow should be executed based on an event that occurs in an integrated system. Kubiya supports a variety of events sources using the CloudEvents standard. For example:
+* ### Event Triggers
+    Event triggers are used to define when a workflow should be executed based on an event that occurs in an integrated system. Kubiya supports a variety of events sources using the CloudEvents standard. For example:
 
-* Slack Events - Slack events that are used to trigger a workflow (e.g. message.im)
-* GitHub Events - GitHub events that are used to trigger a workflow (e.g. pull_request)
-* AWS Events - AWS events that are used to trigger a workflow (e.g. ec2:RunInstances)
+    * Slack Events - Slack events that are used to trigger a workflow (e.g. message.im)
+    * GitHub Events - GitHub events that are used to trigger a workflow (e.g. pull_request)
+    * AWS Events - AWS events that are used to trigger a workflow (e.g. ec2:RunInstances)
 
-### Time (Cron) Triggers
-Time triggers are used to define when a workflow should be executed based on a time schedule. Schedules are simple cron expressions that are used to trigger a workflow (e.g. 0 0 * * *).
+* ### Time (Cron) Triggers
+    Time triggers are used to define when a workflow should be executed based on a time schedule. Schedules are simple cron expressions that are used to trigger a workflow (e.g. 0 0 * * *).
 
 ## Steps
 The series of actions that occur when a workflow is triggered are known as steps. Each step is a single action, performed by Kubiya sequentially, as prescribed by the workflow definition.
@@ -63,4 +63,4 @@ Many times an operator may wish to reuse a workflow created by another operator 
 * From a local directory - such as your computer
 
 
-Next: Actions
+⏭️ Next: [Actions](kc_actions.html)

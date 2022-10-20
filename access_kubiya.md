@@ -15,4 +15,3 @@ You’ll need to register for a beta account in order to access the platform
 If you have already subscribed to beta and received your access token don’t hesitate to move forward to the docs!
 
 [Get Started](getting_started.html){: .btn. btn-green}
-

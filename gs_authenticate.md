@@ -22,10 +22,10 @@ The CLI should return a message as follows:
 
 The portion of message highlighted below in red is a link to authenticate.  Your operating system may allow you to click the link to open it in a browser.  If not, copy this link and paste into the address bar of your favorite browser.
 
-    > If you have several identities in use, it may be best to paste the link into an "incognito"
-    > window to remove any cached identities.  For example, if you have Google user accounts in
-    > different organizations, simply clicking on the link may open a browser window in an
-    > organization that is not associated with the expected Slack account.
+> *If you have several identities in use, it may be best to paste the link into an "incognito"*
+> *window to remove any cached identities.  For example, if you have Google user accounts in*
+> *different organizations, simply clicking on the link may open a browser window in an*
+> *organization that is not associated with the expected Slack account.*
 
 <img src="images/auth-link.png">
 

@@ -14,7 +14,7 @@ In order to use the Kubiya CLI you need to authenticate your account. Authentica
 ## Authentication
 In order to authenticate, run the following command in your terminal:
 
-    kubiya auth --token <your_operator_key>
+    kubiya auth -t <your_operator_key>
 
 The CLI should open the browser and prompt you to authenticate using your organization’s authentication method:
 
@@ -26,11 +26,12 @@ The CLI should open the browser and prompt you to authenticate using your organi
 
 ## Test your authenticated session
 
-Run the following command in your terminal to validate that your session is truly authenticated:
+To test your authentication return to Slack and click on the Kubiya App Icon
 
-    kubiya auth validate
-You should see a validation message:
+<img src="images/kubiya-icon.png>
 
-    ✅ Authenticated to *your organization name* as *your_user_name*
+Send a 'hello' message to the Kubiya App.  If your authentication was successful, you will recieve the following response from the app:
+
+<img src="images/hello-response.png>
 
 ⏭️ Next: [Setting up an integration](gs_enable_integrations.html)

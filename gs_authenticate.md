@@ -16,13 +16,23 @@ In order to authenticate, run the following command in your terminal:
 
     kubiya auth -t <your_operator_key>
 
-The CLI should open the browser and prompt you to authenticate using your organization’s authentication method:
+The CLI should return a message as follows:
+
+<img src="images/auth-response.png">
+
+The portion of message highlighted below in red is a link to authenticate.  Your operating system may allow you to click the link to open it in a browser.  If not, copy this link and paste into the address bar of your favorite browser.
+
+    > If you have several identities in use, it may be best to paste the link into an "incognito" window to remove any cached identities.  For example, if you have Google user accounts in different organizations, simply clicking on the link may open a browser window in an organization that is not associated with the expected Slack account.
+
+<img src="image/auth-link.png">
+
+Your browser window should look like this:
 
 <img src="https://kubiya-static-objects.s3.amazonaws.com/kubiya_enter_org_details.png" width="350" height="475" />
 
-1. Enter the organization name and click on the “Continue” button. The organization name is received from Kubiya upon registration
-2. Log in with the identity provider
-3. Authentication complete, you can now access the Kubiya CLI.
+1. Enter your organization name and click on the “Continue” button. The organization name is received from Kubiya upon registration.
+2. Log in with your identity provider
+3. Upon completion of authentication, your browser should return your identity provider icon with a welcome message and your name.
 
 ## Test your authenticated session
 

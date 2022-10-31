@@ -28,10 +28,10 @@ The CLI should open the browser and prompt you to authenticate using your organi
 
 To test your authentication return to Slack and click on the Kubiya App Icon
 
-<img src="images/kubiya-icon.png>
+<img src="images/kubiya-icon.png">
 
 Send a 'hello' message to the Kubiya App.  If your authentication was successful, you will recieve the following response from the app:
 
-<img src="images/hello-response.png>
+<img src="images/hello-response.png">
 
 ⏭️ Next: [Setting up an integration](gs_enable_integrations.html)

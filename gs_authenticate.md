@@ -36,7 +36,7 @@ The portion of message highlighted below in red is a link to provide your Organi
 
 Your browser window should look like this:
 
-<img src="images/organization.png">
+<img src="images/organization.png" height="447" width="346" >
 
 1. Enter your organization name and click on the “Continue” button. The organization name is received from Kubiya upon registration.
 2. Log in with your identity provider

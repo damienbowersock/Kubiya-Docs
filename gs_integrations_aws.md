@@ -2,6 +2,7 @@
 layout: default
 title: Enabling AWS Integration
 parent: Enabling Integrations
+grand_parent: Getting Started
 nav_order: 1
 ---
 # AWS Integration

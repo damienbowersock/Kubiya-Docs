@@ -43,3 +43,13 @@ Kubiya supports integration with Atlassian JIRA. This integration allows you to 
 3. If unsuccessful the CLI will return an error.
 
 ## STEP 3 - Enable Jira Integration from the Kubiya CLI
+
+1. At the command prompt issue the following command:
+
+    ```bash
+        kubiya integration enable -n jira -c '{
+            "jira_username" : "<your Jira Username>",
+            "jira_default_jql" : "project = <your project name>"
+            "jira_url" : "<your Jira URL i.e. https://yourdomain.atlassian.net>"
+        }'
+    ```

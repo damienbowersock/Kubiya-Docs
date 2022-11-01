@@ -35,8 +35,9 @@ Do so by running the following commands:
 Check that the newly installed Kubiya CLI is working by running the following command:
 
     ```bash
-        kubiya --version
+        kubiya version
     ```
+
 
 The CLI will output the following if the installation was successful:
 

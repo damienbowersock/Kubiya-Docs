@@ -2,6 +2,7 @@
 layout: default
 title: Workflow Guide
 parent: How To Guides
+has_children: true
 nav_order: 1
 ---
 

@@ -10,7 +10,7 @@ Kubiya offers an easy-to-use integration with Amazon Web Services. This integrat
 
 To complete the AWS Integration you will need to create a Role for Kubiya using the Kubiya AWS account number and enable the integration at the Kubiya CLI.
 
-## Create a Role in AWS
+## STEP 1 - Create a Role in AWS
 
 1. Login to your AWS console and navigate to the Identity and Access Management (IAM) page.
 2. Click on the 'Roles' section
@@ -39,6 +39,19 @@ To complete the AWS Integration you will need to create a Role for Kubiya using 
 
     <img src="images/confirmation.png">
 
+## STEP 2 - Enable AWS Integration in the Kubiya CLI
 
+1. At the command prompt issue the following command with:
+    1. The AWS region that your Role was created in
+    2. Your AWS Account ID
+    3. The Role Name that you created in the steps above
 
+    ```bash
+        kubiya integration enable -n aws -c '{"aws_region": "<aws_region>", "aws_account_id": "<your_aws_account_id>", "role_name": "<role_name>"}'
+    ```
 
+2. If successful the CLI will return the following:
+
+    <img src="images/aws-success.png">
+
+3. If unsuccessful the CLI will return an error.  Reconfirm your role configuration.  If everything looks correct and the error persists contect support.

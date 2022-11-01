@@ -28,14 +28,14 @@ Copy the CLI to a location in your PATH and make it executable.
 Do so by running the following commands:
 
     ```bash
-        sudo cp kubiya /usr/local/bin
-        sudo chmod +x /usr/local/bin/kubiya
+    sudo cp kubiya /usr/local/bin
+    sudo chmod +x /usr/local/bin/kubiya
     ```
 
 Check that the newly installed Kubiya CLI is working by running the following command:
 
     ```bash
-        kubiya version
+    kubiya version
     ```
 
 

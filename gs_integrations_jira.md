@@ -50,6 +50,6 @@ Kubiya supports integration with Atlassian JIRA. This integration allows you to 
         kubiya integration enable -n jira -c '{
             "jira_username" : "<your Jira Username>",
             "jira_default_jql" : "project = <your project name>"
-            "jira_url" : "<your Jira URL i.e. https://yourdomain.atlassian.net>"
+            "jira_url" : "https://<yourdomain>.atlassian.net>"
         }'
     ```

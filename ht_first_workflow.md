@@ -1,7 +1,7 @@
 ---
 layout: default
 title: My First Workflow
-parent: Workflow Guide
+parent: Workflows
 grand_parent: How To Guides
 nav_order: 1
 ---

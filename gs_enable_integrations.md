@@ -2,8 +2,8 @@
 layout: default
 title: Enabling Integrations
 parent: Getting Started
-nav_order: 3
 has_children: true
+nav_order: 3
 ---
 # Enabling Integrations from the CLI
 

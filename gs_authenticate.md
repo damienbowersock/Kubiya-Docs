@@ -36,11 +36,13 @@ The portion of message highlighted below in red is a link to provide your Organi
 
 Your browser window should look like this:
 
-<img src="https://kubiya-static-objects.s3.amazonaws.com/kubiya_enter_org_details.png" width="350" height="475" />
+<img src="images/organization.png">
 
 1. Enter your organization name and click on the “Continue” button. The organization name is received from Kubiya upon registration.
 2. Log in with your identity provider
-3. Upon completion of authentication, your browser should return your identity provider icon with a welcome message and your name.
+3. Upon completion of authentication, your browser should return your identity provider icon with a welcome message and your name.  Additionally, the CLI should return a success message like:
+
+<img src="images/auth-success.png">
 
 ## Test your authenticated session
 

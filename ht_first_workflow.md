@@ -75,7 +75,7 @@ kubiya workflow upload -n hello_world hello_world.yaml
 
 When the upload is successful you will see the follwing message:
 
-<img src=images/upload-success.png>
+<img src="images/upload-success.png">
 
 ## Executing a workflow
 
@@ -90,20 +90,20 @@ When executing a workflow from the CLI you must pass the variable expected from 
 
 1. Enter the Kubiya Slack Application and send a 'hello' message
 
-    <img src=images/slack-hello.png>
+    <img src="images/slack-hello.png">
 
 2. Send Kubiya the message: "execute a workflow"
 
-    <img src=image/slack-execute.png>
+    <img src="image/slack-execute.png">
 
     Kubiya will respond with the list of available workflows.
 
 3. Click on the 'hello_world' worflow.  If necessary, expand the list to find the appropriate tile to click on.
 
-    <img src=image/hello-tile.png>
+    <img src="image/hello-tile.png">
 
 4. Follow the prompts to walk through the workflow.
 
-    <img src=image/hello-walk.png>
+    <img src="image/hello-walk.png">
 
 5. Congratulations!  You have completed your first workflow.

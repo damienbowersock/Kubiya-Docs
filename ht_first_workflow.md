@@ -25,7 +25,7 @@ version: 3
 type: conversation
 steps:
   - id: name
-    prompt: Please enter your name
+    prompt: Please enter your name.
     type: input
     value_type: text
     validators:
@@ -33,7 +33,7 @@ steps:
   - id: age
     type: input
     value_type: numeric
-    prompt: How old are you
+    prompt: How old are you?
     validators:
       - min: 9
       - max: 99

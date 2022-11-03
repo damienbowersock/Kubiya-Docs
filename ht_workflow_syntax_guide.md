@@ -14,9 +14,13 @@ nav_order: 3
 #### Input Prompt (Required)
 
 
+
 #### Input Types (Required)
 
+Input Types define the expected data type to be provided by the user, much like a data type when defining a variable in most programming languages.
+
 The following input types are supported:
+
 * `text`: A text input. This is the most common input type - it is used to capture a single text input from the user.
 * `numeric`: A numeric input. This input type is used to capture a single numeric input from the user.
 * `boolean`: A boolean input. This input type is used to capture a single boolean input from the user.
@@ -26,7 +30,11 @@ The following input types are supported:
 * `datetime`: A datetime input. This input type is used to capture a single datetime input from the user.
 
 #### Input Validators
+
+Input validators confirm that the data provided by the user conforms to the standard expected in the workflow.
+
 The following input validators are supported:
+
 * `text_longer_than`: Validates that the input is longer than the specified length.
 * `text_shorter_than`: Validates that the input is shorter than the specified length.
 * `min`: Validates that the input is greater than or equal to the specified value.
@@ -45,6 +53,7 @@ The following input validators are supported:
 * `is_ipv4_address`: Validates that the input is an IPv4 address.
 
 #### Input Additional Properties
+
 The following additional input properties are supported:
 
 * `possible_values`: A list of possible values for the input. This property is required for `enum` input types.

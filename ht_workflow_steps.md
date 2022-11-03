@@ -38,6 +38,22 @@ The Step Type defines the type of activity the step will take.  Valid Step Types
     5. Condition - Make a decision based on an if/then criteria
     6. Exit - Exit the workflow
 
-    #### Input
+For a detailed explanation of Step Types and how to define them, please refer to the syntax guide.
 
-    
+### Step Prompt
+
+```yaml
+steps:
+  - id: <step ID>
+    type: <type>
+    prompt: "<your text string>"
+```
+
+Step prompts instructs Kubiya to send some output to user.  This may be asking a question, giving an instruction, etc.  Prompts can include variables as we saw in the example workflow:
+
+```yaml
+  prompt: Hello, ${name}.  Welcome to Kubiya!
+```
+
+
+

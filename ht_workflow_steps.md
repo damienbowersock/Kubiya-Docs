@@ -32,12 +32,12 @@ steps:
 
 The Step Type defines the type of activity the step will take.  Valid Step Types are:
     
-    1. [Input](ht_workflow_operator_guide.html/#Input) - Requesting a single input from the user.
-    2. Multi-Input - Requesting the user select from several options.
-    3. Message - Providing output to the user
-    4. Action - Interacting with an external system via an Action
-    5. Condition - Make a decision based on an if/then criteria
-    6. Exit - Exit the workflow
+1. [Input](ht_workflow_operator_guide.html/#Input) - Requesting a single input from the user.
+2. Multi-Input - Requesting the user select from several options.
+3. Message - Providing output to the user
+4. Action - Interacting with an external system via an Action
+5. Condition - Make a decision based on an if/then criteria
+6. Exit - Exit the workflow
 
 For a detailed explanation of Step Types and how to define them, please refer to the syntax guide.
 

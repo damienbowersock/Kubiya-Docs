@@ -1,18 +1,13 @@
 ---
 layout: default
-title: Workflow Syntax Guide
+title: Workflow Multi Input Guide
 parent: Workflows
 grand_parent: How To Guides
-nav_order: 3
+nav_order: 4
 ---
-# Workflow Syntax Guide
+# Workflow Multi Input Syntax Guide
 
-## Steps
-
-
-
-Kubiya supports the 
-### Input
+### Multi Input
 
 #### Input Value Types (Required)
 
@@ -36,19 +31,11 @@ A Prompt allows Kubiya to provide text output to the user.  This may be asking a
 prompt: you prompt here
 ```
 
-Prompts may include variables that are referenced by the 'id' of the step that they are created in.  For example, if we wished to collect a users name, we could define a step 'name' and issue the prompt as follows:
+Prompts may include variables that are referenced by the 'id' of the step that they are created in.  
 
 ```yaml
-id: name
-type: input
-prompt: Please enter your name.
-value_type: text
+prompt: The users name is ${step id here}
 ```
-
-This allows the users name to be stored in the variable '{name}'.
-
-
-
 
 #### Input Validators
 

@@ -77,16 +77,25 @@ When the upload is successful you will see the follwing message:
 
 <img src="images/upload-success.png">
 
-## Executing a workflow
+## Launching a workflow
 
-You can execute a workflow from the CLI or from the Kubiya Slack Application.
+You can start a workflow from the CLI or within Slack.  Both methods will start the workflow interaction in the Kubiya Slack Application
 
-### Executing from the CLI
+### Launching from the CLI
 
-When executing a workflow from the CLI you must pass the variable expected from the command line.  Interactive execution is not available at this time.
+To launch the 'hello_world' workflow from the CLI, issue the following command:
 
+```bash
+kubiya workflow launch -n hello_world -u <your slack email>
+```
 
-### Executing from Slack
+A successful launch will return:
+
+```bash
+launching workflow hello_world with user <your slack email>
+```
+
+### Launching from Slack
 
 1. Enter the Kubiya Slack Application and send a 'hello' message
 

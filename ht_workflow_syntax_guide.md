@@ -9,13 +9,12 @@ nav_order: 3
 
 ## Steps
 
+
+
+Kubiya supports the 
 ### Input
 
-#### Input Prompt (Required)
-
-
-
-#### Input Types (Required)
+#### Input Value Types (Required)
 
 Input Types define the expected data type to be provided by the user, much like a data type when defining a variable in most programming languages.
 
@@ -28,6 +27,28 @@ The following input types are supported:
 * `date`: A date input. This input type is used to capture a single date input from the user.
 * `time`: A time input. This input type is used to capture a single time input from the user.
 * `datetime`: A datetime input. This input type is used to capture a single datetime input from the user.
+
+#### Input Prompt (Required)
+
+A Prompt allows Kubiya to provide text output to the user.  This may be asking a question, providing a response etc.  Prompts are defined simply as:
+
+```yaml
+prompt: you prompt here
+```
+
+Prompts may include variables that are referenced by the 'id' of the step that they are created in.  For example, if we wished to collect a users name, we could define a step 'name' and issue the prompt as follows:
+
+```yaml
+id: name
+type: input
+prompt: Please enter your name.
+value_type: text
+```
+
+This allows the users name to be stored in the variable '{name}'.
+
+
+
 
 #### Input Validators
 
@@ -59,3 +80,5 @@ The following additional input properties are supported:
 * `possible_values`: A list of possible values for the input. This property is required for `enum` input types.
 * `default_value`: The default value of the input. This property is optional.
 * `required`: Whether the input is required. This property is optional. Default value is `true`.
+
+### Test

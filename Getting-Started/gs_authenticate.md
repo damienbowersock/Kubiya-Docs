@@ -32,7 +32,7 @@ The portion of message highlighted below in red is a link to provide your Organi
 > *different organizations, simply clicking on the link may open a browser window in an*
 > *organization that is not associated with the expected Slack account/workspace.*
 
-image:: /images/auth-link.png
+<img src="/blob/main/images/auth-link.png">
 
 Your browser window should look like this:
 

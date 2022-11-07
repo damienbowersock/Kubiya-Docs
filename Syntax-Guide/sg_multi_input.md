@@ -67,5 +67,3 @@ The following additional input properties are supported:
 * `possible_values`: A list of possible values for the input. This property is required for `enum` input types.
 * `default_value`: The default value of the input. This property is optional.
 * `required`: Whether the input is required. This property is optional. Default value is `true`.
-
-### Test

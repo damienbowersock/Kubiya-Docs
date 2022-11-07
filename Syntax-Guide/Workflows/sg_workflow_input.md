@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Workflow Input Guide
-parent: Syntax Guide
+title: Input
+parent: Workflow Syntax
+grand_parent: Syntax Guide
 nav_order: 2
 ---
 # Workflow Input Syntax Guide

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Workflow Multi Input Guide
-parent: Syntax Guide
+title: Multi Input
+parent: Workflow Syntax
+grand_parent: Syntax Guide
 nav_order: 3
 ---
 # Workflow Multi Input Syntax Guide

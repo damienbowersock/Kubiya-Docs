@@ -14,9 +14,9 @@ We are going to create a simple workflow that asks the user a yes or no question
 
 1. At the command line create a new file called 'hello_world.yaml'.
 
-    ```bash
-        touch hello_world.yaml
-    ```
+```bash
+    touch hello_world.yaml
+```
 
 2. Open the 'hello_world.yaml' file in your favorite editor and add the following contents:
 

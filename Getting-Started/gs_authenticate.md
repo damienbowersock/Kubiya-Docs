@@ -23,7 +23,7 @@ To initiate authentication for Kubiya, run the following command in your termina
 
 The CLI should return a message as follows:
 
-![](/images/auth-response.png)
+![auth response](../images/auth-response.png)
 
 The portion of message highlighted below in red is a link to provide your Organization Name and connect through your identity provider.  Your operating system may allow you to click the link to open it in a browser.  If not, copy this link and paste into the address bar of your favorite browser.
 
@@ -32,7 +32,7 @@ The portion of message highlighted below in red is a link to provide your Organi
 > *different organizations, simply clicking on the link may open a browser window in an*
 > *organization that is not associated with the expected Slack account/workspace.*
 
-![](/images/auth-link.png)
+![auth link](.../images/auth-link.png)
 
 Your browser window should look like this:
 

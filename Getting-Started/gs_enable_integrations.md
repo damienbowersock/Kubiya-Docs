@@ -15,11 +15,11 @@ Slack Integration is available through <a href="https://slack.com/oauth/v2/autho
 
 By Clicking on the Add to Slack button above you will be prompted to approve Kubiya's access to your workspace.
 
-<img src="/images/add-to-slack.png" height="300" width="250">
+<img src="../images/add-to-slack.png" height="300" width="250">
 
 If successful, Slack will return the following:
 
-<img src="/images/add-success.png">
+<img src="../images/add-success.png">
 
 ## Jira Integration
 

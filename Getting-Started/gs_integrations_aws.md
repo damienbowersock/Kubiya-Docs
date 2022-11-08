@@ -17,7 +17,7 @@ To complete the AWS Integration you will need to create a Role for Kubiya using 
 2. Click on the 'Roles' section
 3. Click "Create Role" button in the top right corner
 
-    <img src="/images/roles.png">
+    <img src="../images/roles.png">
 
 4. In the "Select trusted entity" dialog:
     1. Select "AWS account"
@@ -26,11 +26,11 @@ To complete the AWS Integration you will need to create a Role for Kubiya using 
             564407622114
     4. Click Next
 
-    <img src="/images/trusted-entities.png">
+    <img src="../images/trusted-entities.png">
 
 5. In the 'Policies' dialog, select the access rules that you would like Kubiya to have access to, then click Next
 
-    <img src="/images/policies.png">
+    <img src="../images/policies.png">
 
 6. In the "Role details" dialog:
     1. Name the role, you will need this later.
@@ -38,7 +38,7 @@ To complete the AWS Integration you will need to create a Role for Kubiya using 
     3. Confirm the selected permissions under "Step 2: Add permissions"
     4. If correct, click the "Create role" button
 
-    <img src="/images/confirmation.png">
+    <img src="../images/confirmation.png">
 
 ## STEP 2 - Enable AWS Integration in the Kubiya CLI
 
@@ -53,6 +53,6 @@ To complete the AWS Integration you will need to create a Role for Kubiya using 
 
 2. If successful the CLI will return the following:
 
-    <img src="/images/aws-success.png">
+    <img src="../images/aws-success.png">
 
 3. If unsuccessful the CLI will return an error.  Reconfirm your role configuration.  If everything looks correct and the error persists contect support.

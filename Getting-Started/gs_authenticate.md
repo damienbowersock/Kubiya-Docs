@@ -32,26 +32,26 @@ The portion of message highlighted below in red is a link to provide your Organi
 > *different organizations, simply clicking on the link may open a browser window in an*
 > *organization that is not associated with the expected Slack account/workspace.*
 
-![auth link](.../images/auth-link.png)
+![auth link](../images/auth-link.png)
 
 Your browser window should look like this:
 
-![](/images/organization.png)
+![](../images/organization.png)
 
 1. Enter your organization name and click on the “Continue” button. The organization name is received from Kubiya upon registration.
 2. Log in with your identity provider
 3. Upon completion of authentication, your browser should return your identity provider icon with a welcome message and your name.  Additionally, the CLI should return a success message like:
 
-![](/images/auth-success.png)
+![](../images/auth-success.png)
 
 ## Test your authenticated session
 
 To test your authentication return to Slack and click on the Kubiya App Icon
 
-![](/images/kubiya-icon.png)
+![](../images/kubiya-icon.png)
 
 Send a 'hello' message to the Kubiya App.  If your authentication was successful, you will recieve the following response from the app:
 
-![](/images/hello-response.png)
+![](../images/hello-response.png)
 
 ⏭️ Next: [Setting up an integration](gs_enable_integrations.html)

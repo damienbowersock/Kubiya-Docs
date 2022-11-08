@@ -1,5 +1,5 @@
 remote_theme: just-the-docs/just-the-docs
 logo: "https://kubiya.ai/wp-content/uploads/2022/09/logo.svg"
-site_url: https://damienbowersock.github.io/Kubiya-Docs
+site_url: https://damienbowersock.github.io/Kubiya-Docs/
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one

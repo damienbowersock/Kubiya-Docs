@@ -62,5 +62,7 @@ Many times an operator may wish to reuse a workflow created by another operator 
 * SVN - such as GitHub, GitLab, Bitbucket
 * From a local directory - such as your computer
 
-
+## Training Natural Language with Kubiya Knowledge
+It is possible to train Kubiya to remember key words and phrases that can launch workflows from the Kubiya Application in Slack.  This is done through the use of Kubiya Knowledge.  For more information refer to the [Kubiya Knowledge](../How-To/ht_knowledge.md) "how-to" guide.
+ 
 ⏭️ Next: [Key Concepts -> Actions](kc_actions.html)

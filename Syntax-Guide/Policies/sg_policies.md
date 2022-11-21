@@ -3,7 +3,6 @@ layout: default
 title: Policy Syntax
 nav_order: 3
 parent: Syntax Guide
-has_children: true
 ---
 # Policy Syntax
 
@@ -54,3 +53,26 @@ Any available workflow may be used with the '--workflow-ids' flag.  Please see t
 ### --allowed-entity Flag
 
 A valid user's login email address is used to identify the user that the policy is aligned to.
+
+## List all Policies
+
+To view a list of all policies, use the following command:
+
+```bash
+kubiya policy list
+```
+
+## Describe a Policy
+
+Describing a policy allows the operator to inspect a currently defined policy.
+
+```bash
+kubiya policy describe -p <policy name>
+```
+
+## Delete a Policy
+
+```bash
+kubiya policy delete -p <policy name>
+```
+

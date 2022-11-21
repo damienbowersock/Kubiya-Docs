@@ -46,3 +46,6 @@ That's it!
 ## Testing Knowledge
 
 To test your newly trained knowledge, simple issue the natural language command that you trained.
+
+
+

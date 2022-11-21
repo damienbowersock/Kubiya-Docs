@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Secrets Syntax
-nav_order: 4
+nav_order: 5
 parent: Syntax Guide
 ---
 # Secrets Syntax
@@ -11,11 +11,11 @@ parent: Syntax Guide
 To create a secret use the following command:
 
 ```bash
-kubiya secret create --secret-name <secret_name> --secret-value <secret_value>
+kubiya secret create --secret-name <secret name> --secret-value <secret value>
 ```
 Alternate:
 ```bash
-kubiya secret create -n <secret_name> -v <secret_value>
+kubiya secret create -n <secret name> -v <secret value>
 ```
 
 ## List all Secrets
@@ -31,6 +31,6 @@ kubiya secret list
 To delete a known secret use the following command:
 
 ```bash
-kubiya secret delete -n <secret_name>
+kubiya secret delete -n <secret name>
 ```
 

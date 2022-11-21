@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Knowledge Syntax
-nav_order: 2
+nav_order: 3
 parent: Syntax Guide
 ---
 # Knowledge Syntax
@@ -9,7 +9,7 @@ parent: Syntax Guide
 ## Create a Knowledge Topic
 
 ```bash
-kubiya knowledge create --topic-name '<topic-name>' 
+kubiya knowledge create --topic-name '<topic name>' 
   --examples '<comma separated list of example statements>' 
   --workflow <workflow to launch> 
   --answer '<natural language response to user>'

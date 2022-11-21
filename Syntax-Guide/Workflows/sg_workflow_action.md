@@ -30,6 +30,7 @@ Example:
 ```
 This selects the 'aws' action store that defines commands to allow for interacting with AWS environments
 
+---
 #### name:
 This allows the workflow creator to select the specific action, from within the store, to use.
 Example:
@@ -40,6 +41,7 @@ Example:
 ```
 This requests the list of Elastic Container Service Clusters from AWS.
 
+---
 #### parameters:
 This allows the workflow creator to pass any needed parameters into the command stream.
 Example:

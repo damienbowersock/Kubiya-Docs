@@ -7,9 +7,9 @@ nav_order: 3
 ---
 # Workflow Multi Input Syntax Guide
 
-### Multi Input
+## Multi Input
 
-#### Input Value Types (Required)
+### Input Value Types (Required)
 
 Input Types define the expected data type to be provided by the user, much like a data type when defining a variable in most programming languages.
 
@@ -23,7 +23,7 @@ The following input types are supported:
 * `time`: A time input. This input type is used to capture a single time input from the user.
 * `datetime`: A datetime input. This input type is used to capture a single datetime input from the user.
 
-#### Input Prompt (Required)
+### Input Prompt (Required)
 
 A Prompt allows Kubiya to provide text output to the user.  This may be asking a question, providing a response etc.  Prompts are defined simply as:
 
@@ -37,7 +37,7 @@ Prompts may include variables that are referenced by the 'id' of the step that t
 prompt: The users name is ${step id here}
 ```
 
-#### Input Validators
+### Input Validators
 
 Input validators confirm that the data provided by the user conforms to the standard expected in the workflow.
 
@@ -60,10 +60,56 @@ The following input validators are supported:
 * `is_ip_address`: Validates that the input is an IP address.
 * `is_ipv4_address`: Validates that the input is an IPv4 address.
 
-#### Input Additional Properties
+### Input Additional Properties
 
 The following additional input properties are supported:
 
 * `possible_values`: A list of possible values for the input. This property is required for `enum` input types.
 * `default_value`: The default value of the input. This property is optional.
 * `required`: Whether the input is required. This property is optional. Default value is `true`.
+
+### Multi Input examples
+The following example shows a multi input step that asks the user for their name and age in a single step:
+
+#### Example 1 - Simple Multi Input Step
+```yaml
+- type: multi_input
+  name: multi_input
+  inputs:
+    - prompt: What is your name?
+      value_type: text
+    - prompt: What is your age?
+      value_type: numeric
+```
+
+#### Example 2 - Multi Input Step with validators
+
+The following example shows a multi input step that asks the user for their name and age in a single step. The step also validates that the user's age is greater than or equal to 18:
+
+```yaml
+- type: multi_input
+  name: multi_input
+  inputs:
+    - prompt: What is your name?
+      value_type: text
+    - prompt: What is your age?
+      value_type: numeric
+      validators:
+        - min: 18
+```
+
+
+#### Example 3 - Multi Input Step with default values
+
+The following example shows a multi input step that asks the user for their name and age in a single step. The step also sets the default value of the age input to 18:
+
+```yaml
+- type: multi_input
+  name: multi_input
+  inputs:
+    - prompt: What is your name?
+      value_type: text
+    - prompt: What is your age?
+      value_type: numeric
+      default_value: 18
+```

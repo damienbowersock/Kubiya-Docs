@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Actions
+title: Action Steps
 parent: Workflow Syntax
 grand_parent: Syntax Guide
 nav_order: 1

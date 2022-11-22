@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Multi Input
+title: Multi Input Steps
 parent: Workflow Syntax
 grand_parent: Syntax Guide
 nav_order: 3
@@ -71,7 +71,7 @@ The following additional input properties are supported:
 ### Multi Input examples
 The following example shows a multi input step that asks the user for their name and age in a single step:
 
-#### Example 1 - Simple Multi Input Step
+#### Simple Multi Input Step
 ```yaml
 - type: multi_input
   name: multi_input
@@ -82,7 +82,7 @@ The following example shows a multi input step that asks the user for their name
       value_type: numeric
 ```
 
-#### Example 2 - Multi Input Step with validators
+#### Multi Input Step with validators
 
 The following example shows a multi input step that asks the user for their name and age in a single step. The step also validates that the user's age is greater than or equal to 18:
 
@@ -99,7 +99,7 @@ The following example shows a multi input step that asks the user for their name
 ```
 
 
-#### Example 3 - Multi Input Step with default values
+#### Multi Input Step with default values
 
 The following example shows a multi input step that asks the user for their name and age in a single step. The step also sets the default value of the age input to 18:
 

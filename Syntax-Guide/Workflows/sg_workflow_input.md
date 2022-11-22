@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Input
+title: Input Steps
 parent: Workflow Syntax
 grand_parent: Syntax Guide
 nav_order: 2

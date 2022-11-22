@@ -68,48 +68,36 @@ The following additional input properties are supported:
 * `default_value`: The default value of the input. This property is optional.
 * `required`: Whether the input is required. This property is optional. Default value is `true`.
 
-#### Multi Input examples ####
-The following example shows a multi input step that asks the user for their name and age in a single step:
+### Input Examples
 
-##### Example 1 - Simple Multi Input Step #####
+#### Single Input
+
 ```yaml
-- type: multi_input
-  name: multi_input
-  inputs:
-    - prompt: What is your name?
-      value_type: text
-    - prompt: What is your age?
-      value_type: numeric
+id: name
+    prompt: Please enter your name.
+    type: input
+    value_type: text
 ```
 
-##### Example 2 - Multi Input Step with validators #####
-
-The following example shows a multi input step that asks the user for their name and age in a single step. The step also validates that the user's age is greater than or equal to 18:
+#### Single Input with Validator
 
 ```yaml
-- type: multi_input
-  name: multi_input
-  inputs:
-    - prompt: What is your name?
-      value_type: text
-    - prompt: What is your age?
-      value_type: numeric
-      validators:
-        - min: 18
+id: name
+    prompt: Please enter your name.
+    type: input
+    value_type: text
+    validators:
+      - text_longer_than: 4
 ```
 
-
-#### Example 3 - Multi Input Step with default values #####
-
-The following example shows a multi input step that asks the user for their name and age in a single step. The step also sets the default value of the age input to 18:
+#### Required Single Input with Validator
 
 ```yaml
-- type: multi_input
-  name: multi_input
-  inputs:
-    - prompt: What is your name?
-      value_type: text
-    - prompt: What is your age?
-      value_type: numeric
-      default_value: 18
+id: name
+    prompt: Please enter your name.
+    type: input
+    value_type: text
+    validators:
+      - text_longer_than: 4
+    required: true
 ```

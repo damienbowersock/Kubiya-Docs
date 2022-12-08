@@ -9,7 +9,7 @@ nav_order: 3
 
 ## Knowledge Overview
 
-As your users interact with Kubiya, it may become necessary to improve the usability by shortening the path to workflows.  Often we would like to have a "shortcut" to launching a workflow that is used frequently.  This is done by leveraging Kubiya's Knowledge capabilities.  By teaching Kubiya how to respond to natural language commands, we can make our users lives easier.
+Kubiya Knowledge is a powerful tool that allows the user to interact with Kubiya using natural language.  This could be as simple as creating "shortcuts" for users to launch workflows.  Kubiya's Knowledge capabilities are intelligent enough to automatically correct for typos and use fuzzy logic to "guess" what a user was trying to do.  This dramatically decreases the friction users may experience when engaging with Kubiya.
 
 ## Example Usage
 

@@ -52,7 +52,7 @@ Any available workflow may be used with the '--workflow-ids' flag.  Please see t
 
 ### --allowed-entity Flag
 
-A valid user's login email address is used to identify the user that the policy is aligned to.
+The 'allowed-entity' flag is used to identify what user or group of users the policy applies to.  A valid user's login email address is used to identify a single user that the policy is assigned to.  If an identity provider is configured to authenticate to Kubiya, a role may be used to grant access to multiple users that possess that role.
 
 ## List all Policies
 

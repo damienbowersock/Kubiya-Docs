@@ -51,7 +51,7 @@ This would result in the following output:
 
 ### Hyperlinks
 
-Should you wish to provide the user a hyperlink to click, this can be done by separating the reference in '< >'.  Within the angle brackets, use the format of "<link | clickable text>" as follows:
+Should you wish to provide the user a hyperlink to click, this can be done by separating the reference in '< >'.  Within the angle brackets, use the format of "<link|clickable text>" as follows:
 
 ```yaml
 <https://eu-west1.console.aws.amazon.com/ec2/v2/home | View EC2 Home Page>
